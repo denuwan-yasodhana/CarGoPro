@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 7, 2022 12:31:42 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.Rent" table="rent" catalog="car_rental_system" optimistic-lock="version">
+        <id name="rentId" type="string">
+            <column name="RentID" length="20" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="cars" class="pojos.Cars" fetch="select">
+            <column name="CarID" length="10" not-null="true" />
+        </many-to-one>
+        <many-to-one name="drivers" class="pojos.Drivers" fetch="select">
+            <column name="DriverID" length="30" not-null="true" />
+        </many-to-one>
+        <property name="customer" type="string">
+            <column name="Customer" length="225" not-null="true" />
+        </property>
+        <property name="rentDate" type="date">
+            <column name="RentDate" length="10" not-null="true" />
+        </property>
+        <property name="returnDate" type="date">
+            <column name="ReturnDate" length="10" not-null="true" />
+        </property>
+        <property name="amount" type="int">
+            <column name="Amount" not-null="true" />
+        </property>
+        <set name="returnses" table="returns" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="RentID" length="20" not-null="true" />
+            </key>
+            <one-to-many class="pojos.Returns" />
+        </set>
+    </class>
+</hibernate-mapping>
