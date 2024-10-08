@@ -1,11 +1,41 @@
-# CarGoPro
+# 🚗 Car Rental System (Java)
 
-## Introduction 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Java](https://img.shields.io/badge/Java-8+-orange.svg)
 
-This car rental system developed in Java can benefit rental companies by streamlining their operations and improving customer experience, and efficiencies. Designed to streamline and elevate the car rental experience, our Java-based solution offers seamless booking and management of vehicles. With a user-friendly interface, our system ensures a smooth and efficient journey from reservation to drop-off. Say goodbye to paperwork and hello to a smart, agile, and customer-centric car rental solution, all thanks to our innovative Java development.
+## 📖 Project Overview
 
-## Activity Diagram
+This **Car Rental System**, developed in Java, aims to streamline the process of renting vehicles, providing the rental company. The system simplifies the journey from **reservation** to **vehicle drop-off**, eliminating the need for paperwork and improving overall operational efficiency.
 
+---
 
-![ActivityDiagram1](https://github.com/denuwan-yasodhana/Car-Rental-System/assets/110303643/b510122d-3666-4691-aa9d-02403e3f2618)
+## 🌟 Key Features
 
+- **Seamless Vehicle Booking:** Allows customers to browse, select, and book vehicles easily.
+- **Vehicle Management:** Facilitates easy vehicle addition, deletion, and updates for admins.
+- **Reservation Tracking:** View and manage current reservations.
+- **Improved Efficiency:** Reduces manual work through automation and real-time tracking.
+- **User Authentication:** Ensures secure login and role-based access (Admin/Customer).
+
+---
+
+## 🛠️ Technologies Used
+
+- **Programming Language:** Java (JDK 8+)
+- **Database:** MySQL for storing rental data
+- **GUI Framework:** Java Swing for the user interface
+
+---
+
+## 🖥️ Setup Instructions
+
+### Prerequisites
+
+- **Java Development Kit (JDK 8+)**
+- **MySQL Database** installed and running
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/denuwan-yasodhana/CarGoPro.git
