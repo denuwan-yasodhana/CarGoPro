@@ -1,11 +1,18 @@
-# CarGoPro
+# 🚗 Car Rental Management System
 
-## Introduction 
+## 📌 Project Overview
+The **Car Rental Management System** is a desktop application developed in **Java** with **Java Swing** for the GUI and **MySQL** for data management. This project allows an administrator to efficiently manage cars, bookings, customers, and drivers in a car rental business through an intuitive interface.
 
-This car rental system developed in Java can benefit rental companies by streamlining their operations and improving customer experience, and efficiencies. Designed to streamline and elevate the car rental experience, our Java-based solution offers seamless booking and management of vehicles. With a user-friendly interface, our system ensures a smooth and efficient journey from reservation to drop-off. Say goodbye to paperwork and hello to a smart, agile, and customer-centric car rental solution, all thanks to our innovative Java development.
+## ✨ Features
+- **Admin Registration and Login**: Secure authentication for administrators
+- **Manage Cars**: Add, update, and delete cars in the rental fleet
+- **Manage Bookings**: Schedule and view car bookings
+- **Manage Customers**: Add and edit customer information
+- **Manage Drivers**: Assign drivers to bookings and manage their profiles
+- **Manage Car Returns**: Track and update the status of returned cars
+- **Admin Profile Update**: Modify admin profile information
 
-## Activity Diagram
-
-
-![ActivityDiagram1](https://github.com/denuwan-yasodhana/Car-Rental-System/assets/110303643/b510122d-3666-4691-aa9d-02403e3f2618)
-
+## 🛠 Tech Stack
+- **Java**
+- **Java Swing**
+- **MySQL**
